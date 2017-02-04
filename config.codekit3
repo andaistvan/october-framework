@@ -1349,6 +1349,12 @@
 		"oAP": "\/pages\/teszt.htm",
 		"oF": 0
 		},
+	"\/partials\/carousel-teszt.htm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/carousel-teszt.htm",
+		"oF": 0
+		},
 	"\/theme.yaml": {
 		"ft": 8192,
 		"oA": 2,
