@@ -1,0 +1,29 @@
+name: tesztnav
+items:
+    -
+        title: home
+        type: cms-page
+        code: ''
+        reference: home
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: materialize
+        type: cms-page
+        code: ''
+        reference: materialize
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'angular material'
+        type: cms-page
+        code: ''
+        reference: angularmat
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'

@@ -1331,10 +1331,22 @@
 		"oAP": "\/layouts\/default.htm",
 		"oF": 0
 		},
+	"\/meta\/menus\/tesztnav.yaml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/meta\/menus\/tesztnav.yaml",
+		"oF": 0
+		},
 	"\/meta\/static-pages.yaml": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/meta\/static-pages.yaml",
+		"oF": 0
+		},
+	"\/pages\/angularmat.htm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/pages\/angularmat.htm",
 		"oF": 0
 		},
 	"\/pages\/home.htm": {
@@ -1343,16 +1355,22 @@
 		"oAP": "\/pages\/home.htm",
 		"oF": 0
 		},
-	"\/pages\/teszt.htm": {
+	"\/pages\/materialize.htm": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/pages\/teszt.htm",
+		"oAP": "\/pages\/materialize.htm",
 		"oF": 0
 		},
 	"\/partials\/carousel-teszt.htm": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/partials\/carousel-teszt.htm",
+		"oF": 0
+		},
+	"\/partials\/nav.htm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/nav.htm",
 		"oF": 0
 		},
 	"\/theme.yaml": {
