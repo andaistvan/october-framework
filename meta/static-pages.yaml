@@ -3,3 +3,4 @@ static-pages:
     index: {  }
     teszt-layouts:
         teszt-layouts-materializer: {  }
+    form-teszt: {  }

@@ -1791,16 +1791,22 @@
 		"oAP": "\/content\/static-pages-en\/teszt-layouts-materializer.htm",
 		"oF": 0
 		},
+	"\/content\/static-pages\/form-teszt.htm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/static-pages\/form-teszt.htm",
+		"oF": 0
+		},
 	"\/content\/static-pages\/index.htm": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/content\/static-pages\/index.htm",
 		"oF": 0
 		},
-	"\/content\/static-pages\/teszt-layouts-materializer.htm": {
+	"\/content\/static-pages\/materializer.htm": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/content\/static-pages\/teszt-layouts-materializer.htm",
+		"oAP": "\/content\/static-pages\/materializer.htm",
 		"oF": 0
 		},
 	"\/content\/static-pages\/teszt-layouts.htm": {
@@ -1833,16 +1839,22 @@
 		"oAP": "\/layouts\/singlepage.htm",
 		"oF": 0
 		},
+	"\/layouts\/static-form-layout.htm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/static-form-layout.htm",
+		"oF": 0
+		},
 	"\/layouts\/static-layout.htm": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/static-layout.htm",
 		"oF": 0
 		},
-	"\/meta\/menus\/navigation.yaml": {
+	"\/meta\/menus\/navcode.yaml": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/meta\/menus\/navigation.yaml",
+		"oAP": "\/meta\/menus\/navcode.yaml",
 		"oF": 0
 		},
 	"\/meta\/static-pages.yaml": {
@@ -1857,10 +1869,10 @@
 		"oAP": "\/pages\/_home.htm",
 		"oF": 0
 		},
-	"\/pages\/form-teszt.htm": {
+	"\/pages\/contact.htm": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/pages\/form-teszt.htm",
+		"oAP": "\/pages\/contact.htm",
 		"oF": 0
 		},
 	"\/partials\/carousel-teszt.htm": {
@@ -1945,6 +1957,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/partials\/staticMenu\/items.htm",
+		"oF": 0
+		},
+	"\/partials\/staticMenu\/menuItems.htm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/staticMenu\/menuItems.htm",
 		"oF": 0
 		},
 	"\/theme.yaml": {

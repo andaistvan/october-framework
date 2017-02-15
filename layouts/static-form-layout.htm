@@ -1,0 +1,32 @@
+description = "static form layout"
+
+[staticPage]
+
+[localePicker]
+forceUrl = 0
+==
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	{% partial "globals/meta" %}
+	{% partial "globals/styles" %}
+</head>
+<body>
+	{% partial "globals/header-static" %}
+	<!-- {% component 'localePicker' %} -->
+
+
+
+<div class="row">
+	<div class="container">
+			{% page %}
+	</div><!--/.container-->
+</div><!--/.row-->
+
+
+	{% partial "globals/footer" %}
+
+	{% partial "globals/scripts" %}
+	{% scripts %}
+</body>
+</html>

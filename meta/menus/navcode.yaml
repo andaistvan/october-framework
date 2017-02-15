@@ -2,12 +2,10 @@ name: navigation
 items:
     -
         title: Home
-        nesting: '0'
+        nesting: '1'
         type: static-page
-        url: ''
         code: ''
         reference: index
-        cmsPage: ''
         replace: '0'
         viewBag:
             isHidden: '0'
@@ -15,9 +13,11 @@ items:
             isExternal: '0'
     -
         title: 'Teszt layouts'
-        type: url
-        url: '#'
+        nesting: '1'
+        type: static-page
         code: ''
+        reference: teszt-layouts
+        replace: '0'
         viewBag:
             isHidden: '0'
             cssClass: dropdown-button
@@ -25,7 +25,7 @@ items:
         items:
             -
                 title: Materializer
-                nesting: '0'
+                nesting: '1'
                 type: static-page
                 code: ''
                 reference: teszt-layouts-materializer
@@ -34,3 +34,14 @@ items:
                     isHidden: '0'
                     cssClass: 'dropdown-content a'
                     isExternal: '0'
+    -
+        title: 'Form teszt'
+        nesting: '1'
+        type: static-page
+        code: ''
+        reference: form-teszt
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'

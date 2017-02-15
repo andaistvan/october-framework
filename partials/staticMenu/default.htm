@@ -1,12 +1,2 @@
 [viewBag]
 ==
-{% if __SELF__.menuItems %}
-    <ul class="right hide-on-med-and-down">
-        {% partial __SELF__ ~ "::items" items=__SELF__.menuItems %}
-        
-    </ul>
-    
-    <ul id="mobile-main-nav" class="dropdown-content">
-        {% partial __SELF__ ~ "::items" items=__SELF__.menuItems %}
-    </ul>
-{% endif %}

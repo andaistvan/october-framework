@@ -1,0 +1,9 @@
+[viewBag]
+==
+{% for item in staticMenu.menuItems %}
+
+	<li><a href="{{ item.url }}">{{ item.title }}</a></li>
+	<li><a class="dropdown-button" data-activates="dropdown1" href="{{ item.url }}">{{ item.title }}</a></li>
+
+
+{% endfor %}

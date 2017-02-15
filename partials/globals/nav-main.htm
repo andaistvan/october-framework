@@ -1,21 +1,33 @@
 [viewBag]
 ==
 <nav>
-  <div class="nav-wrapper">
-    <a href="#!" class="brand-logo">Logo</a>
+	<div class="nav-wrapper">
+	     <a href="{{ 'home'|page }}" class="brand-logo white-text">October Framework</a>
+	     <a href="#" data-activates="mobile-menu" class="lt-mobile-toggle button-collapse"><i class="material-icons">menu</i></a>
 
-    <ul class="right hide-on-med-and-down">
-      <li><a href={{'content/static-pages/index.htm'|theme}}>Home</a></li>
-      <!-- Dropdown Trigger -->
-      <li><a class="dropdown-button" data-beloworigin="true" href="#!" data-activates="dropdown1">Teszt layouts<i class="material-icons right">arrow_drop_down</i></a></li>
-			<!-- submenu -->
-			<ul id="dropdown1" class="dropdown-content">
-				<li><a href={{'content/static-pages/teszt-layouts-materializer.htm'|theme}}>materializer</a></li>
-				<li class="divider"></li>
-				<li><a href="!#">angular</a></li>
-			</ul>
-			<!-- submenu -->
-			<li><a href={{'pages/form-teszt.htm'|theme}}>Form teszt</a></li>
-	 </ul>
-  </div>
+			<!-- main navigation -->
+		  <ul class="right hide-on-med-and-down">
+	       <li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
+	       <li class="{% if this.page.id == 'form-teszt' %}active{% endif %}"><a href="{{ 'form-teszt'|page }}">form teszt</a></li>
+			 	<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Elements<i class="material-icons right">arrow_drop_down</i></a></li>
+					<ul id="dropdown1" class="dropdown-content">
+						 <li class="{% if this.page.id == 'materializer' %}active{% endif %}"><a href="{{ 'content/static-pages/materializer'|theme }}">materializer</a></li>
+						 <li class="{% if this.page.id == 'angular' %}active{% endif %}"><a href="{{ 'angular'|page }}">angular</a></li>
+					</ul>
+	       <li class="{% if this.page.id == 'contact' %}active{% endif %}"><a href="{{ 'contact'|page }}">Contact</a></li>
+	     </ul>
+
+			<!-- mobil navigation -->
+	     <ul class="side-nav" id="mobile-menu">
+			  <li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
+			  <li class="{% if this.page.id == 'form-teszt' %}active{% endif %}"><a href="{{ 'form-teszt'|page }}">form teszt</a></li>
+				<li><a class="dropdown-button" href="#!" data-activates="mainmenu-dropdown1">Elements<i class="material-icons right">arrow_drop_down</i></a></li>
+					<ul id="mainmenu-dropdown1" class="dropdown-content">
+						 <li class="{% if this.page.id == 'materializer' %}active{% endif %}"><a href="{{ 'content/static-pages/materializer'|theme }}">materializer</a></li>
+						 <li class="{% if this.page.id == 'angular' %}active{% endif %}"><a href="{{ 'angular'|page }}">angular</a></li>
+					</ul>
+			  <li class="{% if this.page.id == 'contact' %}active{% endif %}"><a href="{{ 'contact'|page }}">Contact</a></li>
+	     </ul>
+	   </div>
+	</div>
 </nav>
