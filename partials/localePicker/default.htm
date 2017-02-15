@@ -1,0 +1,15 @@
+description = "lang-switcher"
+
+[viewBag]
+==
+<h6>{{'Nyelv választó'|_}}</h6>
+{{ form_open() }}
+    <select name="locale" data-request="onSwitchLocale" class="form-control">
+        {% for code, name in locales %}
+            <option value="{{ code }}" {{ code == activeLocale ? 'selected' }}>{{ name }}</option>
+        {% endfor %}
+    </select>
+{{ form_close() }}
+
+<a class="item" data-request-data="locale: 'hu'" data-request="onSwitchLocale" href="#">magyar </a>
+<a class="item" data-request-data="locale: 'en'" data-request="onSwitchLocale" href="#">English </a>

@@ -1,0 +1,17 @@
+description = "single page layout"
+==
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	{% partial "globals/meta" %}
+	{% partial "globals/styles" %}
+</head>
+<body>	
+	{% partial "globals/header" %}
+	{% page %}
+	{% partial "globals/footer" %}
+
+	{% partial "globals/scripts" %}
+	{% scripts %}
+</body>
+</html>

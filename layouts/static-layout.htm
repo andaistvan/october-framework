@@ -1,0 +1,78 @@
+description = "normal layout"
+
+[staticPage]
+
+[localePicker]
+forceUrl = 1
+==
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	{% partial "globals/meta" %}
+	{% partial "globals/styles" %}
+</head>
+<body>
+	{% partial "globals/header-static" %}
+	{% component 'localePicker' %}
+
+
+
+<div class="row">
+	<div class="container">
+
+		<div class="center wow fadeInDown">
+			<h4>{{ this.page.title }}</h4>
+		</div>
+
+		<div class="col m4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+			<div class="feature-wrap">
+				<i class="fa fa-user"></i>
+				<div class="feature-text">
+					{% placeholder featleft title="featleft" %}
+				</div>
+			</div>
+		</div><!--/.col-md-4-->
+
+		<div class="col m4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+			<div class="feature-wrap">
+				<i class="fa fa-user"></i>
+				<div class="feature-text">
+					{% placeholder featmiddle title="featmiddle" %}
+				</div>
+			</div>
+		</div><!--/.col-md-4-->
+
+		<div class="col m4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+			<div class="feature-wrap">
+				<i class="fa fa-user"></i>
+				<div class="feature-text">
+					{% placeholder featright title="featright" %}
+				</div>
+			</div>
+		</div><!--/.col-md-4-->
+	</div>
+</div>
+
+<div class="row">
+	<div class="container">
+
+			{% page %}
+		
+	</div>
+</div>
+
+<div class="row">
+		<div class="container">
+		<div class="col m6 offset-m3">
+			{% content "testiomonials"%}
+		</div>
+		</div><!--/.container-->
+</div><!--/.row-->
+
+
+	{% partial "globals/footer" %}
+
+	{% partial "globals/scripts" %}
+	{% scripts %}
+</body>
+</html>

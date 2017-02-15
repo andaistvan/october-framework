@@ -1,2 +1,13 @@
-@import "../materialize-src/sass/materialize.scss";
+@charset "UTF-8";
+
+// Reset
+@import "../vendor/materialize-src/sass/components/normalize";
+
+// Variables
+// @import "../theme-scss/variables";
+
+// Materialize
+@import "../vendor/materialize-src/sass/materialize.scss";
+
+// Theme  Styling
 @import "../theme-scss/theme-styles.scss";

@@ -1,0 +1,36 @@
+name: navigation
+items:
+    -
+        title: Home
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: index
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Teszt layouts'
+        type: url
+        url: '#'
+        code: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: dropdown-button
+            isExternal: '0'
+        items:
+            -
+                title: Materializer
+                nesting: '0'
+                type: static-page
+                code: ''
+                reference: teszt-layouts-materializer
+                replace: '0'
+                viewBag:
+                    isHidden: '0'
+                    cssClass: 'dropdown-content a'
+                    isExternal: '0'

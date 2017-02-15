@@ -1,1 +1,5 @@
-static-pages: {  }
+static-pages:
+    single-page-layout: {  }
+    index: {  }
+    teszt-layouts:
+        teszt-layouts-materializer: {  }
